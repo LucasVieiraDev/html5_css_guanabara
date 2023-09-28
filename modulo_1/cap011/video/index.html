@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vidoes hospedados localmente</h1>
+    <p>Este video esta hospedado em meu proprio servidor.</p>
+    <video poster="imagens/limoes-capa.png" controls loop width="560"> <!-- abaixo usamos a tag source que insere o item procurado (no caso o video) de acordo com a ordem que foi colocado, ou seja se nao for compativel com o primeiro formato ele tenta o segundo e assim por diante. -->
+        <source src="midia/Pexels Videos(720P).mkv" type="">
+        <source src="midia/pexels_videos(720p).mp4" type="video/mp4">
+        <source src="midia/Pexels Videos(720P).webm" type="video/webm">
+    </video>
+    <h1>Iserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=jB4lPBfC1yfs8eOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>Iserindo videos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/71127606?h=d543aa14ac&color=ff9933&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>
