@@ -6,16 +6,29 @@
     <title>teste img fundo</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            
+            // abaixo fiz essas mesmas configurações usando o shorthand.
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center top no-repeat fixed;
+            background-size: cover;
+
+            /*Shorthand - background:
+                color > image > position > repeat > [size] > attachment
+
+                atualmente não esta funcionando o size no shorthand de background, mas no manual esta dizendo que deve funcionar, então pode ser atualizado a quanquer momento. 
+            */
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
@@ -29,6 +42,21 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, suscipit maxime. Ut vel ipsum natus, numquam tenetur amet eum magni delectus, rem culpa suscipit quia nostrum, autem iusto deleniti blanditiis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque nesciunt modi, suscipit corporis ut earum placeat maiores eius vel esse dolorum explicabo illum autem voluptatem officia repellendus ratione doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aliquam, earum consectetur asperiores hic provident maxime placeat eveniet, voluptatum animi odit accusantium, laudantium excepturi reprehenderit repellendus dolores culpa vel officiis?
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, suscipit maxime. Ut vel ipsum natus, numquam tenetur amet eum magni delectus, rem culpa suscipit quia nostrum, autem iusto deleniti blanditiis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque nesciunt modi, suscipit corporis ut earum placeat maiores eius vel esse dolorum explicabo illum autem voluptatem officia repellendus ratione doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aliquam, earum consectetur asperiores hic provident maxime placeat eveniet, voluptatum animi odit accusantium, laudantium excepturi reprehenderit repellendus dolores culpa vel officiis?
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, suscipit maxime. Ut vel ipsum natus, numquam tenetur amet eum magni delectus, rem culpa suscipit quia nostrum, autem iusto deleniti blanditiis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque nesciunt modi, suscipit corporis ut earum placeat maiores eius vel esse dolorum explicabo illum autem voluptatem officia repellendus ratione doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aliquam, earum consectetur asperiores hic provident maxime placeat eveniet, voluptatum animi odit accusantium, laudantium excepturi reprehenderit repellendus dolores culpa vel officiis?
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, suscipit maxime. Ut vel ipsum natus, numquam tenetur amet eum magni delectus, rem culpa suscipit quia nostrum, autem iusto deleniti blanditiis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque nesciunt modi, suscipit corporis ut earum placeat maiores eius vel esse dolorum explicabo illum autem voluptatem officia repellendus ratione doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aliquam, earum consectetur asperiores hic provident maxime placeat eveniet, voluptatum animi odit accusantium, laudantium excepturi reprehenderit repellendus dolores culpa vel officiis?
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, suscipit maxime. Ut vel ipsum natus, numquam tenetur amet eum magni delectus, rem culpa suscipit quia nostrum, autem iusto deleniti blanditiis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque nesciunt modi, suscipit corporis ut earum placeat maiores eius vel esse dolorum explicabo illum autem voluptatem officia repellendus ratione doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aliquam, earum consectetur asperiores hic provident maxime placeat eveniet, voluptatum animi odit accusantium, laudantium excepturi reprehenderit repellendus dolores culpa vel officiis?
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, suscipit maxime. Ut vel ipsum natus, numquam tenetur amet eum magni delectus, rem culpa suscipit quia nostrum, autem iusto deleniti blanditiis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque nesciunt modi, suscipit corporis ut earum placeat maiores eius vel esse dolorum explicabo illum autem voluptatem officia repellendus ratione doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aliquam, earum consectetur asperiores hic provident maxime placeat eveniet, voluptatum animi odit accusantium, laudantium excepturi reprehenderit repellendus dolores culpa vel officiis?
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, suscipit maxime. Ut vel ipsum natus, numquam tenetur amet eum magni delectus, rem culpa suscipit quia nostrum, autem iusto deleniti blanditiis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque nesciunt modi, suscipit corporis ut earum placeat maiores eius vel esse dolorum explicabo illum autem voluptatem officia repellendus ratione doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aliquam, earum consectetur asperiores hic provident maxime placeat eveniet, voluptatum animi odit accusantium, laudantium excepturi reprehenderit repellendus dolores culpa vel officiis?
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, suscipit maxime. Ut vel ipsum natus, numquam tenetur amet eum magni delectus, rem culpa suscipit quia nostrum, autem iusto deleniti blanditiis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque nesciunt modi, suscipit corporis ut earum placeat maiores eius vel esse dolorum explicabo illum autem voluptatem officia repellendus ratione doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aliquam, earum consectetur asperiores hic provident maxime placeat eveniet, voluptatum animi odit accusantium, laudantium excepturi reprehenderit repellendus dolores culpa vel officiis?
+        </p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, suscipit maxime. Ut vel ipsum natus, numquam tenetur amet eum magni delectus, rem culpa suscipit quia nostrum, autem iusto deleniti blanditiis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque nesciunt modi, suscipit corporis ut earum placeat maiores eius vel esse dolorum explicabo illum autem voluptatem officia repellendus ratione doloremque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam aliquam, earum consectetur asperiores hic provident maxime placeat eveniet, voluptatum animi odit accusantium, laudantium excepturi reprehenderit repellendus dolores culpa vel officiis?
         </p>
     </main>
     
