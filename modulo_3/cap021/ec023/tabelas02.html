@@ -15,9 +15,20 @@
             border-collapse: collapse;
         }
 
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+
+        }
+
         td, th {
             border: 1px solid black;
             padding: 10px;
+        }
+        tbody tr:nth-child(even) {
+            background-color: lightgrey;
         }
 
         thead {
@@ -32,6 +43,7 @@
         }
         .num {
             text-align: right;
+            
         }
     </style>
 
@@ -41,20 +53,24 @@
     <!-- 
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION (Legenda da tabela)
             THEAD
-                TR,TD,TH
+                TR (table row),TD (table data),TH (table header(titulo))
             TBODY
                 TR,TD,TH
             TFOOT
                 TR,TD,TH
     -->
     <table>
+
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
+
+        <caption>População dos Unidades Federativas do Brasil</caption>
 
         <tbody>
             <tr>
@@ -106,7 +122,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
