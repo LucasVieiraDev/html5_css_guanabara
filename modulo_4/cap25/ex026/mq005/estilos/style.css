@@ -12,7 +12,6 @@ html, body {
 
 header {
     background-color:  rgb(148, 148, 148);
-    padding-bottom: 20px;
 }
 
 header > h1 {
@@ -23,9 +22,7 @@ header > h1 {
 i#burger {
     background-color: rgb(48, 48, 48);
     display: block;
-    width: 80vw;
     margin: auto;
-    border-radius: 10px;
     color: white;
     text-align: center;
     padding: 10px;
@@ -47,7 +44,6 @@ menu > ul {
 
 menu > ul > li > a {
     display: block;
-    width: 80vw;
     margin: auto;
     padding: 10px;
     text-decoration: none;
@@ -55,7 +51,6 @@ menu > ul > li > a {
     background-color: rgb(87, 87, 87);
     color: white;
     border-top: 2px solid gray;
-    border-radius: 10px;
 }
 
 menu > ul > li a:hover {
